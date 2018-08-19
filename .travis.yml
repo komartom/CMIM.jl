@@ -11,5 +11,5 @@ sudo: false
 script:
   - julia -e 'Pkg.clone(pwd()); Pkg.build("CMIM"); Pkg.test("CMIM"; coverage=true)'
 after_success:
-  - julia -e 'cd(Pkg.dir("CMIM")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
+#  - julia -e 'cd(Pkg.dir("CMIM")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
   - julia -e 'cd(Pkg.dir("CMIM")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'

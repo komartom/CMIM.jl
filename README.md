@@ -1,7 +1,8 @@
 # Conditional Mutual Information Maximization (CMIM.jl)
-Julia implementation of CMIM feature selection algorithm
+[![Build Status](https://travis-ci.org/komartom/CMIM.jl.svg?branch=master)](https://travis-ci.org/komartom/CMIM.jl)
+[![codecov.io](http://codecov.io/github/komartom/CMIM.jl/coverage.svg?branch=master)](http://codecov.io/github/komartom/CMIM.jl?branch=master)
 
-[Fleuret, Francois. (2004). Fast Binary Feature Selection with Conditional Mutual Information. Journal of Machine Learning Research. 5. 1531-1555](http://www.jmlr.org/papers/volume5/fleuret04a/fleuret04a.pdf)
+Julia implementation of CMIM feature selection algorithm proposed in [Fleuret, Francois. (2004). Fast Binary Feature Selection with Conditional Mutual Information. Journal of Machine Learning Research. 5. 1531-1555](http://www.jmlr.org/papers/volume5/fleuret04a/fleuret04a.pdf)
 
 
 ## Installation
