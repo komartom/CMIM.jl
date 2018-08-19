@@ -1,9 +1,7 @@
 # Conditional Mutual Information Maximization (CMIM.jl)
+Julia implementation of CMIM feature selection algorithm
 
-Fast Binary Feature Selection Method in Julia
-
-The implementation is based on the original [Fleuret's paper](www.jmlr.org/papers/volume5/fleuret04a/fleuret04a.pdf):
-Fleuret, Francois. (2004). Fast Binary Feature Selection with Conditional Mutual Information. Journal of Machine Learning Research. 5. 1531-1555.
+[Fleuret, Francois. (2004). Fast Binary Feature Selection with Conditional Mutual Information. Journal of Machine Learning Research. 5. 1531-1555](http://www.jmlr.org/papers/volume5/fleuret04a/fleuret04a.pdf)
 
 
 ## Installation
@@ -13,7 +11,7 @@ Pkg.clone("https://github.com/komartom/CMIM.jl.git")
 ```
 
 ## Simple example
-Feature selection on a text-based dataset
+Selecting the best 100 features on a text-based dataset
 ```julia
 using CMIM, MAT
 
